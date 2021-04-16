@@ -1,0 +1,31 @@
+.header {
+    justify-content: center;
+    text-align: center;
+    color: #265675;
+    margin: -44px 54px 30px 48px
+  }
+  .header_button {
+    background-color: #eceff4;
+    border-radius: 18px;
+    border:0;
+    font-size: 22px;
+    font-style: italic;
+    margin-right: 29px;
+    padding: 23px;
+    width: 160px;
+  }
+
+  .header_button:hover{
+      background-color: #7DC6E9;
+      color: white;
+      font-weight: bold;
+      transition: 0.2s;
+
+  }
+
+  .header_title{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  

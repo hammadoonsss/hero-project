@@ -1,0 +1,85 @@
+.herolist{
+    justify-content: center;
+    text-align: center;
+}
+.herolist_title{
+    display: flex;
+    flex-direction: row;
+}
+
+.table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table_button-id {
+    background-color:  #ffffff;
+    border:none;
+    color: #265675;
+    font-size: 22px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.table_button-name {
+    background-color: white;
+    border:none;
+    color: rgb(21, 36, 63) ;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+
+.table_button-name:hover{
+    background-color: #265675;
+    color: white;
+    transition: 0.3s;
+}
+
+th{
+    color: #fc5185;
+    font-size: 28px;
+}
+
+.remove_button{
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    width: 300px;
+}
+
+.remove_button:hover{
+    background-color: rgb(158, 1, 1);
+    color:white;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+.view_details{
+    background-color: white;
+    border:none;
+    color: rgb(21, 36, 63) ;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 20px 10px 20px 10px ;
+    text-align: center;
+}
+.view_button{
+    background-color: rgb(158, 1, 1) ;
+    border-collapse: collapse;
+    color: white;
+    font-size: 20px;
+    margin: 1px 10px 10px 10px;
+    padding: 1.2rem;
+}
+.view_button:hover{
+    /* background-color: #265675; */
+    background-color: #fc5185;
+    color: rgb(21, 36, 63) ;
+    border-radius: 12px;
+    transition: 0.2s;
+    transition: 0.3s;
+}
