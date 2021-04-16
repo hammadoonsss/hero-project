@@ -43,7 +43,7 @@ class Edit extends React.Component {
                 <form className='edit__line' onSubmit={this.formSubmit}>
                 <h2>{this.state.name ? `${this.state.name}  Details` : ''}</h2>
                     <input className='text-input' type="text"  placeholder={this.props.match.params.id} disabled></input> 
-                    <input className='text-input' type="text" placeholder='name' value={this.state.name} onChange={this.nameChange}></input>
+                    <input className='text-input' type="text" placeholder='Hero-Name' value={this.state.name} onChange={this.nameChange}></input>
                     <div><button className='edit_button' onClick={this.goBack}>Save</button></div>
                 </form>
                    

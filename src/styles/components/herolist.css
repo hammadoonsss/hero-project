@@ -16,6 +16,7 @@
     background-color:  #ffffff;
     border:none;
     color: #265675;
+    cursor: none;
     font-size: 22px;
     margin-top: 10px;
     width: 300px;
@@ -55,6 +56,7 @@ th{
 .remove_button:hover{
     background-color: rgb(158, 1, 1);
     color:white;
+    cursor:none;
     border-radius: 12px;
     transition: 0.2s;
 }
@@ -68,8 +70,8 @@ th{
     text-align: center;
 }
 .view_button{
-    background-color: rgb(158, 1, 1) ;
-    border-collapse: collapse;
+    background-color:#265675 ;
+    border: none;
     color: white;
     font-size: 20px;
     margin: 1px 10px 10px 10px;
@@ -78,8 +80,9 @@ th{
 .view_button:hover{
     /* background-color: #265675; */
     background-color: #fc5185;
-    color: rgb(21, 36, 63) ;
+    border:none;
     border-radius: 12px;
+    color: rgb(21, 36, 63) ;
     transition: 0.2s;
     transition: 0.3s;
 }

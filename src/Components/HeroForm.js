@@ -42,7 +42,7 @@ export default class HeroForm extends React.Component {
                     <input
                         className='text-input'
                         type="text"
-                        placeholder="id"
+                        placeholder="Hero-Id"
                         autoFocus
                         value={this.state.id}
                         onChange={this.onIdChange}/>
